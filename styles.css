@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://media.istockphoto.com/id/1623303770/photo/creative-background-image-is-blurred-evening-city-lights-and-light-snowfall.webp?b=1&s=170667a&w=0&k=20&c=PhWd1zt98e6K70KAAb1BjzZXGdQZZRwfqvdtJOwTfIw=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px; /* Slightly transparent white background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #218838;
+}
+
+.intro img {
+    max-width: 100%;
+    height: auto;
+}
+
+.intro p {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.intro a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.intro a:hover {
+    background: #0056b3;
+}
+
+#appliance-list {
+    margin-bottom: 20px;
+}
+
+#results {
+    background: #e9ecef;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+#results h2 {
+    margin-top: 0;
+}
+
+#results p {
+    margin: 5px 0;
+}

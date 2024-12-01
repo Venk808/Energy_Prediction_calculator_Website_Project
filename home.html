@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Enco</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ENCO Energy</h1>
+        <form id="appliance-form">
+            <label for="appliance-name">Appliance Name:</label>
+            <input type="text" id="appliance-name" required>
+           
+            <label for="num-appliances">Number of Appliances:</label>
+            <input type="number" id="num-appliances" min="1" required>
+           
+            <label for="usage-hours">Usage Hours per Day:</label>
+            <input type="number" id="usage-hours" step="0.1" min="0" required>
+           
+            <button type="button" onclick="addAppliance()">Add Appliance</button>
+        </form>
+       
+        <div id="appliance-list"></div>
+       
+        <button onclick="calculate()">Calculate</button>
+        <p>Add more than one appliance</p>
+       
+        <div id="results">
+            <h2>Total Energy Consumption:</h2>
+            <p id="consumption-day"></p>
+            <p id="consumption-week"></p>
+            <p id="consumption-month"></p>
+            <p id="consumption-year"></p>
+           
+            <h2>Total Cost (INR):</h2>
+            <p id="cost-day"></p>
+            <p id="cost-week"></p>
+            <p id="cost-month"></p>
+            <p id="cost-year"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
